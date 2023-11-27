@@ -136,7 +136,7 @@
 }
 
 .flag:hover {
-    transform: translate(2)
+    transform: translate(2);
 }
 
 .lang-select {
