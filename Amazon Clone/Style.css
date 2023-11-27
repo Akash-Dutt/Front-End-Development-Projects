@@ -135,10 +135,6 @@
     height: 16.2px;
 }
 
-.flag:hover {
-    transform: translate(2);
-}
-
 .lang-select {
     background-color: #0F1111;
     color: white;
