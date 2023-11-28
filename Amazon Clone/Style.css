@@ -254,3 +254,49 @@
     color: #007185;
     text-decoration: none;
 }
+.hero-msg a:hover {
+    color: rgb(218, 74, 22);
+    text-decoration: underline;
+}
+
+
+/* designing shopping section  */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d0dcdc;
+}
+
+.box {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 20px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a {
+    color: #007185;
+    text-decoration: none;
+}
+.box-content a:hover {
+    color: rgb(218, 74, 22);
+    text-decoration: underline;
+}
+
+.box-content h2 {
+    font-size: 1.3125rem;
+}
