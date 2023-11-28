@@ -14,6 +14,8 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    position: fixed;
+    z-index: 500;
 }
 
 /* Navbar logo */
@@ -187,4 +189,46 @@
     width: 70px;
     padding: 4px;
     padding-top: 10px;
+}
+
+
+/* Designing Panel  */
+.panel {
+    height: 39px;
+    width: 100%;
+    background: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    position: relative;
+    top: 60px;
+}
+
+.panel-ops {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.panel-ops a {
+    color: white;
+    font-size: 0.875rem;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.New-Launches img {
+    height: 34px;
+}
+
+.all {
+    height: 38px;
+    display: flex;
+    align-items: center;
 }
