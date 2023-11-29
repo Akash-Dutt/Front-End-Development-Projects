@@ -266,6 +266,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #d0dcdc;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -299,4 +300,234 @@
 
 .box-content h2 {
     font-size: 1.3125rem;
+}
+
+/* Designing bottom sign in section  */
+.bottom-sign-in-outer {
+    margin-top: 40px;
+    height: 150px;
+}
+
+.bottom-sign-in-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 5px;
+    height: 125px;
+    align-items: center;
+}
+
+.p1 {
+    font-size: 0.8125rem;
+    font-weight: 525;
+}
+
+.p2 {
+    font-size: 0.6875rem;
+    font-weight: 525;
+}
+
+.bottom-sign-in-inner a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.bottom-sign-in-inner a:hover {
+    color: rgb(218, 74, 22);
+    text-decoration: none;
+}
+
+.bottom-sign-in-inner button {
+    height: 28px;
+    width: 230px;
+    background-color: #ffc73a;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 550;
+    margin: 7px 0 7px 0;
+    cursor: pointer;
+}
+
+
+/* Designing Footer  */
+
+/* foot panel 1 */
+.foot-panel1 {
+    background-color: #374758;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.foot-panel1:hover {
+    background-color: #485769;
+}
+
+
+/* foot panel 2  */
+.foot-panel2 {
+    height: 350px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content:space-evenly;
+}
+
+.foot-panel2 ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 ul li p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 6px 0 14px 0;
+}
+
+.foot-panel2 ul li a {
+    color: #DDDDDD;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.foot-panel2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel2 ul {
+    padding: 0 10px;
+    margin-top: 40px;
+}
+
+
+/* footer line  */
+.foot-panel-3 {
+    height: 88px;
+    /* margin: 10px 63.200px 10px 63.200px; */
+    background-color: #232F3E;
+    border-top: 1px solid #cccccc46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("Resources/amazon_logo.jpg");
+    background-size: cover;
+    width: 117px;
+    margin-right: 85px;
+    transform: scale(0.9);
+}
+
+.foot-panel-3 button {
+    background-color: #232F3E;
+    color: #cccccc;
+    border-radius: 5px;
+    height: 34px;
+    width: 117px;
+    border: 1px solid #cccccc78;
+    cursor: pointer;
+}
+
+
+/* foot panel 4 */
+.foot-panel-4 {
+    height: 74px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+   
+}
+
+.foot-panel-4 a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #DDDDDD;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+.foot-panel-4 a:hover {
+    text-decoration: underline;
+}
+
+/* foot-panel-5  */
+.foot-panel-5 {
+    box-sizing: content-box;
+    background-color: #131a22;
+    height: 116px;
+    padding: 20px 250px 20px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.b1 {
+    width: 200px;
+    height: 40.2px;
+    padding-bottom: 9px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 13px;
+}
+
+.b1 a p {
+    color: #DDDDDD;
+}
+
+.b1 a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 0.75rem;
+    
+}
+
+.b1 a:hover {
+    text-decoration: underline;
+}
+
+/* foot panel 6 */
+.foot-panel-6 {
+    height: 75px;
+    background-color: #131a22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    line-height: 13px;
+}
+
+.External-pages a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 0.75rem;
+    padding: 0 8px 0 8px;
+}
+
+.External-pages a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel-6 p {
+    margin-top: 5px;
+    color: #DDDDDD;
+    font-size: 0.75rem;
 }
