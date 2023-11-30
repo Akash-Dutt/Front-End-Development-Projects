@@ -14,12 +14,14 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 /* Navbar logo */
 .nav-logo {
     height: 50px;
-    width: 100px;
+    width: 125px;
 }
 
 .logo {
@@ -200,6 +202,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 15px 0 15px;
+    margin-top: 60px;
 }
 
 .panel-ops {
