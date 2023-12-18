@@ -11,6 +11,8 @@
     background-color: #0F1111;
     color: #FFFFFF;
     display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
@@ -195,7 +197,7 @@
 /* Designing Panel  */
 .panel {
     height: 39px;
-    width: 100%;
+    width: 100vw;
     background: #232F3E;
     display: flex;
     justify-content: center;
@@ -203,6 +205,7 @@
     justify-content: space-between;
     padding: 0 15px 0 15px;
     margin-top: 60px;
+    white-space: nowrap;
 }
 
 .panel-ops {
@@ -247,11 +250,15 @@
     color: black;
     height: 40px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-size: 0.85rem;
     width: 96%;
     margin-bottom: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .hero-msg a {
     color: #007185;
@@ -385,6 +392,7 @@
     justify-content: center;
     align-items: start;
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 
 .foot-panel2 ul li{
@@ -516,6 +524,7 @@
     justify-content: center;
     padding-bottom: 30px;
     line-height: 13px;
+    flex-wrap: wrap;
 }
 
 .External-pages a {
